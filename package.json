@@ -1,0 +1,34 @@
+{
+	"name": "yarthsmith",
+	"version": "0.0.0",
+	"description": "A Node-based static site generator. Yep, another one.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/yarthur/yarthsmith.git"
+	},
+	"keywords": [
+		"node",
+		"static",
+		"site",
+		"generator"
+	],
+	"author": "John Arthur <yarthur@yarthur.com> (https://yarthur.com)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/yarthur/yarthsmith/issues"
+	},
+	"homepage": "https://github.com/yarthur/yarthsmith#readme",
+	"devDependencies": {
+		"eslint": "^3.14.1"
+	},
+	"eslintConfig": {
+		"env": {
+			"node": true
+		},
+		"extends": "eslint:recommended"
+	}
+}
